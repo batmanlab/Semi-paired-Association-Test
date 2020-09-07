@@ -2,7 +2,7 @@
 
 This repository contains Matlab code to reproduce the experiments in our submission "Semi-paired Association Testing".
 <p align="center">
-  <img width="55%" height="%55" src="fig1.png">
+  <img width="40%" height="40%" src="fig1.png">
 </p>
 
 # Main routines
