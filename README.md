@@ -1,6 +1,6 @@
 # Semi-paired Association Test (SAT)
 
-This repository contains Matlab code to reproduce the experiments in our submission "Semi-paired Association Testing".
+This repository contains Matlab code to reproduce the experiments in our submission "Unpaired Data Empowers Association Tests".
 <p align="center">
   <img width="40%" height="40%" src="fig1.png">
 </p>
