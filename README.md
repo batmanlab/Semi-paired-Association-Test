@@ -6,26 +6,14 @@ This repository contains Matlab code to reproduce the experiments in our submiss
 </p>
 
 # Main routines
-SAT-rx: semi-paired test in the random $X$ setting. The inputs are kernel matrices for X, Y, and Z (covariates), the outputs are the p-values and test statistics.
+SAT-rx: semi-paired test in the random X setting. The inputs are kernel matrices for X, Y, and Z (covariates), the outputs are the p-values and test statistics.
 
 ``` function [p_val0, p_val, p_valSemi, Sta, StaSemi] = HSIC_Test(Kx, Ky, Kzx, Kzy, pars)```
+SAT-fx: semi-paired test in the fixed X setting. The inputs are kernel matrices for X, Y, and Z (covariates), the outputs are the p-values and test statistics.
 
-### function [p_val0, p_val, p_valSemi, Sta, StaSemi] = LMM_ScoreTest(Kx, Ky, Kzx, Kzy, pars)
-- SAT-fx: Variance Component Score Test (VCST) using semi-paired data. X-phenotype, Y-genotype
-Inputs: 
-- Kx - kernel matrix on x (NxN, the first np x np block contains paired data)
-- Ky - kernel matrix on y (MxM, the first np x np block contains paired data)
-- Kzx - kernel matrix on covariate z (for x, empty if not exist)
-- Kzy - kernel matrix on covariate z (for y, empty if not exist)
-- pars - hyperparameters
-Outputs:
-- p_val0 - p value of the original VCST using only paired data
-- p_val - p value of our Semi-paired test (SAT), only improve null distribution
-- p_valSemi - p value of our SAT, improve both test statistics and null distribution
-- Sta - test statistic of the original VCST using only paired data
-- StaSemi - test statistic of our SAT
+``` function [p_val0, p_val, p_valSemi, Sta, StaSemi] = LMM_ScoreTest(Kx, Ky, Kzx, Kzy, pars)```
 
-# Experiments scripts
+# Simulation Experiments
 ## Evaluation of type I and type II errors of SAT-rx on simulated data.
 - function exp_simul1_typeI_par_func(h2, sigma_n, dim, iter)
 - function exp_simul1_typeII_par_func(h2, sigma_n, dim, iter)
