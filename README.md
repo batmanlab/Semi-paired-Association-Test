@@ -28,7 +28,7 @@ Simulation (1), SAT-rx
 ├── run_jobs_simul_lmm_typeII_par.sh - Script to evaluate test power of SAT-rx.
 ```
 
-## Evaluation of type I error and test power of SAT-fx the simulation setting (2). The information about the COPD data can be found in [COPDGene] (http://www.copdgene.org/).
+## Evaluation of type I error and test power of SAT-fx the simulation setting (2). The information about the COPD data can be found in [COPDGene](http://www.copdgene.org/).
 Simulation (2), SAT-fx
 ├── run_jobs_copd_simul_typeI_par.sh - script to evaluate type I error of SAT-fx.
 ├── run_jobs_copd_simul_typeII_par.sh - Script to evaluate test power of SAT-fx.
