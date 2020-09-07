@@ -2,7 +2,7 @@
 
 This repository contains Matlab code to reproduce the experiments in our submission "Semi-paired Association Testing".
 <p align="center">
-  <img width="75%" height="%75" src="https://github.com/batmanlab/twin_ac/blob/master/figure/tac_gan_scheme.png">
+  <img width="75%" height="%75" src="fig1.png">
 </p>
 # 
 
