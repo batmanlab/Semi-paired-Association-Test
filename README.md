@@ -15,18 +15,24 @@ SAT-fx: semi-paired test in the fixed X setting. The inputs are kernel matrices 
 ``` function [p_val0, p_val, p_valSemi, Sta, StaSemi] = LMM_ScoreTest(Kx, Ky, Kzx, Kzy, pars)```
 
 # Simulation Experiments
-## Evaluation of type I and type II errors of SAT-rx on simulated data.
-- function exp_simul1_typeI_par_func(h2, sigma_n, dim, iter)
-- function exp_simul1_typeII_par_func(h2, sigma_n, dim, iter)
+## Evaluation of type I error and test power of SAT-rx in the simulation setting (1).
+```
+Simulation (1), SAT-rx
+├── run_jobs_simul_typeI_par.sh - script to evaluate type I error of SAT-rx.
+├── run_jobs_simul_typeII_par.py - Script to evaluate test power of SAT-rx.
+```
+## Evaluation of type I error and test power of SAT-fx in the simulation setting (1).
+```
+Simulation (1), SAT-rx
+├── run_jobs_simul_lmm_typeI_par.sh - script to evaluate type I error of SAT-rx.
+├── run_jobs_simul_lmm_typeII_par.py - Script to evaluate test power of SAT-rx.
+```
 
-## Evaluation of type I and type II errors of SAT-fx on simulated data.
-- function exp_simul1_lmm_typeI_par_func(h2, sigma_n, dim, iter)
-- function exp_simul1_lmm_typeII_par_func(h2, sigma_n, dim, iter)
-
-## Evaluation of type I and type II errors of SAT-fx on COPD simulated data.
+## Evaluation of type I error and test power of SAT-fx the simulation setting (2).
 - function exp_copd_simul_typeI_par_func(h2, sig, ydim, iter)
 - function exp_copd_simul_typeII_par_func(h2, sig, ydim, iter)
 
+# Real Experiments
 ## P-values on Uganda dataset
 - function [p_val0All,p_val0,p_val,p_valSemi,Sta,StaSemi,nl,nlSelUp] = exp_exploration_mimic(dataset,pars) 
 - function [p_val0,p_val,p_valSemi,Sta,StaSemi,nl,nlSelUp] = exp_exploration_real(dataset,pars)
