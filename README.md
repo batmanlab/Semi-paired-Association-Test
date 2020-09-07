@@ -1,4 +1,6 @@
 # Semi-paired-Association-Test
+
+This repository contains Matlab code to reproduce the experiments in our submission "Semi-paired Association Testing".
 ## Dependencies: [KCI-test](http://people.tuebingen.mpg.de/kzhang/KCI-test.zip), [MEGHA-v1](https://scholar.harvard.edu/tge/software/megha).
 
 # Main routines
