@@ -1,2 +1,2 @@
-# SAT_demo
-Semi-paired association test
+# Semi-paired association test
+
