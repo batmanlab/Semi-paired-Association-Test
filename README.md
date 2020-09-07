@@ -5,7 +5,7 @@ This repository contains Matlab code to reproduce the experiments in our submiss
   <img width="40%" height="40%" src="fig1.png">
 </p>
 
-# Main routines
+# Main Routines
 SAT-rx: semi-paired test in the random X setting. The inputs are kernel matrices for X, Y, and Z (covariates), the outputs are the p-values and test statistics. The detailed information about the inputs and outputs are provided in the code.
 
 ``` function [p_val0, p_val, p_valSemi, Sta, StaSemi] = HSIC_Test(Kx, Ky, Kzx, Kzy, pars)```
