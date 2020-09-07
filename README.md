@@ -39,10 +39,9 @@ Simulation (2), SAT-fx
 ### Phenotype discovery on General Population Cohort (GPC), Uganda. The genomic data have been deposited at the European Genome-phenome Archive ([EGA](https://www.ebi.ac.uk/ega/)) under accession number EGAS00001001558. Requests for access to phenotype data may be directed to data@apcdr.org.
 ```
 Uganda data, SAT-rx
-├── run_jobs_copd_simul_typeI_par.sh - script to evaluate type I error of SAT-fx.
-├── run_jobs_copd_simul_typeII_par.sh - Script to evaluate test power of SAT-fx.
+├── run_jobs_uganda_mimic.sh - script to calculate p-values of the paired phenotypes.
+├── run_jobs_uganda_real.sh - Script to calculate p-values of unpaired phenotypes .
 ```
-
 
 # Dependencies 
 Our code depends on [KCI-test](http://people.tuebingen.mpg.de/kzhang/KCI-test.zip) and [MEGHA-v1](https://scholar.harvard.edu/tge/software/megha).
