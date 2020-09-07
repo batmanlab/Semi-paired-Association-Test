@@ -1,5 +1,5 @@
 #!/bin/sh
-module load matlab
+#module load matlab
 echo 'locate and run'
 echo "h2=$1"
 echo "sigma_n=$2"

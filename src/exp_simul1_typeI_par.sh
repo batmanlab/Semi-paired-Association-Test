@@ -1,5 +1,6 @@
 #!/bin/sh
-module load matlab
+# module load matlab
+# alias matlab='/Applications/MATLAB_R2020a.app/bin/matlab -nodesktop -nosplash'
 echo 'locate and run'
 echo "h2=$1"
 echo "sigma_n=$2"
