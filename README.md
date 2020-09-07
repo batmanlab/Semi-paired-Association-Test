@@ -1,7 +1,6 @@
 # Semi-paired-Association-Test
 
 This repository contains Matlab code to reproduce the experiments in our submission "Semi-paired Association Testing".
-## Dependencies: [KCI-test](http://people.tuebingen.mpg.de/kzhang/KCI-test.zip), [MEGHA-v1](https://scholar.harvard.edu/tge/software/megha).
 
 # Main routines
 
@@ -61,5 +60,5 @@ Outputs:
 ## P-values on gene expression data
 - function exp_copd_kl_geneExp_func(fev1_cov)
 
-
+## Dependencies: [KCI-test](http://people.tuebingen.mpg.de/kzhang/KCI-test.zip), [MEGHA-v1](https://scholar.harvard.edu/tge/software/megha).
 
