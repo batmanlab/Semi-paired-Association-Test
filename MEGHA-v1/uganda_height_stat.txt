@@ -1,0 +1,6 @@
+no confounder h2=1.000000, pval=0.000000
+gender confounder h2=1.000000, pval=0.000000
+age confounder h2=1.000000, pval=0.000000
+gender+age confounder h2=1.000000, pval=0.000000
+pc1-6 confounder h2=1.000000, pval=0.000000
+gender+age+pc1-6 confounder h2=1.000000, pval=0.000000
