@@ -29,24 +29,20 @@ Simulation (1), SAT-rx
 ```
 
 ## Evaluation of type I error and test power of SAT-fx the simulation setting (2). The information about the COPD data can be found in [COPDGene](http://www.copdgene.org/).
+```
 Simulation (2), SAT-fx
 ├── run_jobs_copd_simul_typeI_par.sh - script to evaluate type I error of SAT-fx.
 ├── run_jobs_copd_simul_typeII_par.sh - Script to evaluate test power of SAT-fx.
 ```
 
 # Real Experiments
-## P-values on Uganda dataset
-- function [p_val0All,p_val0,p_val,p_valSemi,Sta,StaSemi,nl,nlSelUp] = exp_exploration_mimic(dataset,pars) 
-- function [p_val0,p_val,p_valSemi,Sta,StaSemi,nl,nlSelUp] = exp_exploration_real(dataset,pars)
+## Phenotype discovery on General Population Cohort (GPC), Uganda. The genomic data have been deposited at the European Genome-phenome Archive ([EGA](https://www.ebi.ac.uk/ega/)) under accession number EGAS00001001558. Requests for access to phenotype data may be directed to data@apcdr.org.
+```
+Uganda data, SAT-rx
+├── run_jobs_copd_simul_typeI_par.sh - script to evaluate type I error of SAT-fx.
+├── run_jobs_copd_simul_typeII_par.sh - Script to evaluate test power of SAT-fx.
+```
 
-## P-values on real imaging
-- function exp_copd_geneExpTseng_func(pheno_id, gene_id)
-
-## P-values on biomarker data
-- function exp_copd_kl_biomarker_func(fev1_cov)
-
-## P-values on gene expression data
-- function exp_copd_kl_geneExp_func(fev1_cov)
 
 # Dependencies 
 Our code depends on [KCI-test](http://people.tuebingen.mpg.de/kzhang/KCI-test.zip) and [MEGHA-v1](https://scholar.harvard.edu/tge/software/megha).
