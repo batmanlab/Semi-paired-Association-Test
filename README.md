@@ -61,5 +61,5 @@ Outputs:
 - function exp_copd_kl_geneExp_func(fev1_cov)
 
 # Dependencies 
-Our code depends on [KCI-test](http://people.tuebingen.mpg.de/kzhang/KCI-test.zip), [MEGHA-v1](https://scholar.harvard.edu/tge/software/megha).
+Our code depends on [KCI-test](http://people.tuebingen.mpg.de/kzhang/KCI-test.zip) and [MEGHA-v1](https://scholar.harvard.edu/tge/software/megha).
 
