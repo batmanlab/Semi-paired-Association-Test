@@ -1,6 +1,6 @@
 # Semi-paired-Association-Test
 Semi-paired Association Test
-## dependencies: KCI-test [http://people.tuebingen.mpg.de/kzhang/KCI-test.zip], MEGHA-v1
+## dependencies: [KCI-test](http://people.tuebingen.mpg.de/kzhang/KCI-test.zip), [MEGHA-v1](https://scholar.harvard.edu/tge/software/megha).
 
 # Main routines
 
