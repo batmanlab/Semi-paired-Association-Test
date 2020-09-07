@@ -6,7 +6,7 @@ This repository contains Matlab code to reproduce the experiments in our submiss
 </p>
 
 # Main Routines
-SAT-rx: semi-paired test in the random X setting. The inputs are kernel matrices for X, Y, and Z (covariates), the outputs are the p-values and test statistics. The detailed information about the inputs and outputs are provided in the code.
+SAT-rx: semi-paired test in the random X setting. The inputs are kernel matrices for X, Y, and Z (covariates), the outputs are the p-values and test statistics. 
 
 ```
 function [p_val0, p_val, p_valSemi, Sta, StaSemi] = HSIC_Test(Kx, Ky, Kzx, Kzy, pars)
@@ -25,9 +25,24 @@ Outputs:
 - StaSemi - test statistic of our SAT 
 ```
 
-SAT-fx: semi-paired test in the fixed X setting. The inputs are kernel matrices for X, Y, and Z (covariates), the outputs are the p-values and test statistics. The detailed information about the inputs and outputs are provided in the code.
+SAT-fx: semi-paired test in the fixed X setting. The inputs are kernel matrices for X, Y, and Z (covariates), the outputs are the p-values and test statistics. 
 
-``` function [p_val0, p_val, p_valSemi, Sta, StaSemi] = LMM_ScoreTest(Kx, Ky, Kzx, Kzy, pars)```
+``` 
+function [p_val0, p_val, p_valSemi, Sta, StaSemi] = LMM_ScoreTest(Kx, Ky, Kzx, Kzy, pars)
+- SAT-fx: Variance Component Score Test (VCST) using semi-paired data. X-phenotype, Y-genotype
+Inputs: 
+- Kx - kernel matrix on x (NxN, the first np x np block contains paired data)
+- Ky - kernel matrix on y (MxM, the first np x np block contains paired data)
+- Kzx - kernel matrix on covariate z (for x, empty if not exist)
+- Kzy - kernel matrix on covariate z (for y, empty if not exist)
+- pars - hyperparameters
+Outputs:
+- p_val0 - p value of the original VCST using only paired data
+- p_val - p value of our Semi-paired test (SAT), only improve null distribution
+- p_valSemi - p value of our SAT, improve both test statistics and null distribution
+- Sta - test statistic of the original VCST using only paired data
+- StaSemi - test statistic of our SAT
+```
 
 # Simulation Experiments
 ### Evaluation of type I error and test power of SAT-rx in the simulation setting (1).
