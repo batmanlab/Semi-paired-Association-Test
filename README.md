@@ -1,8 +1,13 @@
 # Semi-paired-Association-Test
 
 This repository contains Matlab code to reproduce the experiments in our submission "Semi-paired Association Testing".
+<p align="center">
+  <img width="75%" height="%75" src="https://github.com/batmanlab/twin_ac/blob/master/figure/tac_gan_scheme.png">
+</p>
+# 
 
 # Main routines
+
 
 ### function [p_val0, p_val, p_valSemi, Sta, StaSemi] = HSIC_Test(Kx, Ky, Kzx, Kzy, pars)
 - SAT-rx: Hilbert Schmidt Independence Criterion (HSIC) test using semi-paired data
